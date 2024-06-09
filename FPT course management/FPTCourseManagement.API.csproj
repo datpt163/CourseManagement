@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>FPT_course_management</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.30" />
+    <PackageReference Include="Microsoft.AspNetCore.OData" Version="8.2.4" />
+    <PackageReference Include="Scrutor" Version="4.2.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FPTCourseManagement.Application\FPTCourseManagement.Application.csproj" />
+    <ProjectReference Include="..\FPTCourseManagement.Infrastructure\FPTCourseManagement.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

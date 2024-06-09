@@ -1,0 +1,12 @@
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Domain\bin\Debug\net6.0\FPTCourseManagement.Domain.deps.json
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Domain\bin\Debug\net6.0\FPTCourseManagement.Domain.dll
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Domain\bin\Debug\net6.0\FPTCourseManagement.Domain.pdb
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Domain\obj\Debug\net6.0\FPTCourseManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Domain\obj\Debug\net6.0\FPTCourseManagement.Domain.AssemblyInfoInputs.cache
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Domain\obj\Debug\net6.0\FPTCourseManagement.Domain.AssemblyInfo.cs
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Domain\obj\Debug\net6.0\FPTCourseManagement.Domain.csproj.CoreCompileInputs.cache
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Domain\obj\Debug\net6.0\FPTCourseManagement.Domain.dll
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Domain\obj\Debug\net6.0\refint\FPTCourseManagement.Domain.dll
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Domain\obj\Debug\net6.0\FPTCourseManagement.Domain.pdb
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Domain\obj\Debug\net6.0\ref\FPTCourseManagement.Domain.dll
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Domain\obj\Debug\net6.0\FPTCourseManagement.Domain.csproj.AssemblyReference.cache

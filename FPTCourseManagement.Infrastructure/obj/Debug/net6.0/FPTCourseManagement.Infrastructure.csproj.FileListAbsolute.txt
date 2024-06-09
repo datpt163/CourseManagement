@@ -1,0 +1,17 @@
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\bin\Debug\net6.0\FPTCourseManagement.Infrastructure.deps.json
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\bin\Debug\net6.0\FPTCourseManagement.Infrastructure.runtimeconfig.json
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\bin\Debug\net6.0\FPTCourseManagement.Infrastructure.dll
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\bin\Debug\net6.0\FPTCourseManagement.Infrastructure.pdb
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\bin\Debug\net6.0\FPTCourseManagement.Domain.dll
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\bin\Debug\net6.0\FPTCourseManagement.Domain.pdb
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.csproj.AssemblyReference.cache
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.AssemblyInfoInputs.cache
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.AssemblyInfo.cs
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.csproj.CoreCompileInputs.cache
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCours.1B780098.Up2Date
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.dll
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\refint\FPTCourseManagement.Infrastructure.dll
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.pdb
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.genruntimeconfig.cache
+D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\ref\FPTCourseManagement.Infrastructure.dll
