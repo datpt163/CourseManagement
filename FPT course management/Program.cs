@@ -18,6 +18,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using FPTCourseManagement.Application.Common.Service;
+using FPT_course_management.Module.Schedule.Controllers;
 
 
 
@@ -74,7 +75,7 @@ builder.Services.AddTransient<IJwtService, JwtService>();
 builder.Services.AddApplication();
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(FPTCourseManagement.Application.AssemblyReference.Assembly));
 
-
+builder.Services.AddTransient<JWTService, JWTService>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

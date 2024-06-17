@@ -585,11 +585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WordkSpaceBackend\\Lab1\\FPT course management\\FPTCourseManagement.Domain\\FPTCourseManagement.Domain.csproj",
+      "projectUniqueName": "D:\\FPTCourseManagement2\\FPTCourseManagement.Domain\\FPTCourseManagement.Domain.csproj",
       "projectName": "FPTCourseManagement.Domain",
-      "projectPath": "D:\\WordkSpaceBackend\\Lab1\\FPT course management\\FPTCourseManagement.Domain\\FPTCourseManagement.Domain.csproj",
+      "projectPath": "D:\\FPTCourseManagement2\\FPTCourseManagement.Domain\\FPTCourseManagement.Domain.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\WordkSpaceBackend\\Lab1\\FPT course management\\FPTCourseManagement.Domain\\obj\\",
+      "outputPath": "D:\\FPTCourseManagement2\\FPTCourseManagement.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

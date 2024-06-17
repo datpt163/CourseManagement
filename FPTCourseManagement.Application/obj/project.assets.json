@@ -1402,11 +1402,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WordkSpaceBackend\\Lab1\\FPT course management\\FPTCourseManagement.Application\\FPTCourseManagement.Application.csproj",
+      "projectUniqueName": "D:\\FPTCourseManagement2\\FPTCourseManagement.Application\\FPTCourseManagement.Application.csproj",
       "projectName": "FPTCourseManagement.Application",
-      "projectPath": "D:\\WordkSpaceBackend\\Lab1\\FPT course management\\FPTCourseManagement.Application\\FPTCourseManagement.Application.csproj",
+      "projectPath": "D:\\FPTCourseManagement2\\FPTCourseManagement.Application\\FPTCourseManagement.Application.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\WordkSpaceBackend\\Lab1\\FPT course management\\FPTCourseManagement.Application\\obj\\",
+      "outputPath": "D:\\FPTCourseManagement2\\FPTCourseManagement.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1423,8 +1423,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\WordkSpaceBackend\\Lab1\\FPT course management\\FPTCourseManagement.Domain\\FPTCourseManagement.Domain.csproj": {
-              "projectPath": "D:\\WordkSpaceBackend\\Lab1\\FPT course management\\FPTCourseManagement.Domain\\FPTCourseManagement.Domain.csproj"
+            "D:\\FPTCourseManagement2\\FPTCourseManagement.Domain\\FPTCourseManagement.Domain.csproj": {
+              "projectPath": "D:\\FPTCourseManagement2\\FPTCourseManagement.Domain\\FPTCourseManagement.Domain.csproj"
             }
           }
         }

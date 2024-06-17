@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H5RYXOC0+MM9ASba8v1Tmo0YAKBB8f3zcpjJerSvC1W0gC03kCzTw2uLCaLBhOptKQ6Ll/S6x+BirUHaFDE3wQ==",
+  "dgSpecHash": "5UjhglYyUYXUXQhnXU1LbNgyw36ujF7MbRaQ8EygB+i53hMhsJKRtmnk+AZ4IqJ9I8Jk39BHoTEPK1bNcdZK8Q==",
   "success": true,
-  "projectFilePath": "D:\\WordkSpaceBackend\\Lab1\\FPT course management\\FPTCourseManagement.Infrastructure\\FPTCourseManagement.Infrastructure.csproj",
+  "projectFilePath": "D:\\FPTCourseManagement2\\FPTCourseManagement.Infrastructure\\FPTCourseManagement.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.30\\microsoft.entityframeworkcore.6.0.30.nupkg.sha512",

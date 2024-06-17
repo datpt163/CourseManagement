@@ -15,3 +15,21 @@ D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructu
 D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.pdb
 D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.genruntimeconfig.cache
 D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\ref\FPTCourseManagement.Infrastructure.dll
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\bin\Debug\net6.0\FPTCourseManagement.Infrastructure.deps.json
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\bin\Debug\net6.0\FPTCourseManagement.Infrastructure.runtimeconfig.json
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\bin\Debug\net6.0\FPTCourseManagement.Infrastructure.dll
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\bin\Debug\net6.0\FPTCourseManagement.Infrastructure.pdb
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\bin\Debug\net6.0\FPTCourseManagement.Domain.dll
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\bin\Debug\net6.0\FPTCourseManagement.Domain.pdb
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.csproj.AssemblyReference.cache
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.AssemblyInfoInputs.cache
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.AssemblyInfo.cs
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.csproj.CoreCompileInputs.cache
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.sourcelink.json
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCours.1B780098.Up2Date
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.dll
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\refint\FPTCourseManagement.Infrastructure.dll
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.pdb
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\FPTCourseManagement.Infrastructure.genruntimeconfig.cache
+D:\FPTCourseManagement2\FPTCourseManagement.Infrastructure\obj\Debug\net6.0\ref\FPTCourseManagement.Infrastructure.dll

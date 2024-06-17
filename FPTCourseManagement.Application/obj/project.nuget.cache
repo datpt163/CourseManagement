@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NtyWBJ8au22GsalM3dWbZLjlKaBlBH5C/NMwkIjhyeGISIv/nVq+dArhg6/pig44u4AOUpZb6kwn1BB6aq+eBw==",
+  "dgSpecHash": "2xxfv8s1pPRWd4N31JbT1BuDCa2Oh8F+YVADY2WpBQbDlzKuFN266XIsYcYvvy9EyS00HrMAa77vH86vE6+jXg==",
   "success": true,
-  "projectFilePath": "D:\\WordkSpaceBackend\\Lab1\\FPT course management\\FPTCourseManagement.Application\\FPTCourseManagement.Application.csproj",
+  "projectFilePath": "D:\\FPTCourseManagement2\\FPTCourseManagement.Application\\FPTCourseManagement.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\mediatr\\6.0.0\\mediatr.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.30\\microsoft.aspnetcore.authentication.jwtbearer.6.0.30.nupkg.sha512",

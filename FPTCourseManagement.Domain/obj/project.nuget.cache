@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s99weTz/BB1KYfwjnieuzmlaDuiZTbjqTQidLswOLtZA1bTgYYq1hJbLI6obgI137dt9dRQ+vgDkY9fCxghfxQ==",
+  "dgSpecHash": "r+8zt4Z1DyTpQ1P9EL4KreIYOUvPKTfhSklDSxu/8ZOvhsqUkU4Fqt2CGsU94ifKDpPlnAN09zsed7pu82jpZg==",
   "success": true,
-  "projectFilePath": "D:\\WordkSpaceBackend\\Lab1\\FPT course management\\FPTCourseManagement.Domain\\FPTCourseManagement.Domain.csproj",
+  "projectFilePath": "D:\\FPTCourseManagement2\\FPTCourseManagement.Domain\\FPTCourseManagement.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.30\\microsoft.entityframeworkcore.6.0.30.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.30\\microsoft.entityframeworkcore.abstractions.6.0.30.nupkg.sha512",

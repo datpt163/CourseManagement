@@ -13,3 +13,19 @@ D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Application\
 D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Application\bin\Debug\net6.0\FPTCourseManagement.Domain.dll
 D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Application\bin\Debug\net6.0\FPTCourseManagement.Domain.pdb
 D:\WordkSpaceBackend\Lab1\FPT course management\FPTCourseManagement.Application\obj\Debug\net6.0\FPTCours.FFE0FB3E.Up2Date
+D:\FPTCourseManagement2\FPTCourseManagement.Application\bin\Debug\net6.0\FPTCourseManagement.Application.deps.json
+D:\FPTCourseManagement2\FPTCourseManagement.Application\bin\Debug\net6.0\FPTCourseManagement.Application.dll
+D:\FPTCourseManagement2\FPTCourseManagement.Application\bin\Debug\net6.0\FPTCourseManagement.Application.pdb
+D:\FPTCourseManagement2\FPTCourseManagement.Application\bin\Debug\net6.0\FPTCourseManagement.Domain.dll
+D:\FPTCourseManagement2\FPTCourseManagement.Application\bin\Debug\net6.0\FPTCourseManagement.Domain.pdb
+D:\FPTCourseManagement2\FPTCourseManagement.Application\obj\Debug\net6.0\FPTCourseManagement.Application.csproj.AssemblyReference.cache
+D:\FPTCourseManagement2\FPTCourseManagement.Application\obj\Debug\net6.0\FPTCourseManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPTCourseManagement2\FPTCourseManagement.Application\obj\Debug\net6.0\FPTCourseManagement.Application.AssemblyInfoInputs.cache
+D:\FPTCourseManagement2\FPTCourseManagement.Application\obj\Debug\net6.0\FPTCourseManagement.Application.AssemblyInfo.cs
+D:\FPTCourseManagement2\FPTCourseManagement.Application\obj\Debug\net6.0\FPTCourseManagement.Application.csproj.CoreCompileInputs.cache
+D:\FPTCourseManagement2\FPTCourseManagement.Application\obj\Debug\net6.0\FPTCourseManagement.Application.sourcelink.json
+D:\FPTCourseManagement2\FPTCourseManagement.Application\obj\Debug\net6.0\FPTCours.FFE0FB3E.Up2Date
+D:\FPTCourseManagement2\FPTCourseManagement.Application\obj\Debug\net6.0\FPTCourseManagement.Application.dll
+D:\FPTCourseManagement2\FPTCourseManagement.Application\obj\Debug\net6.0\refint\FPTCourseManagement.Application.dll
+D:\FPTCourseManagement2\FPTCourseManagement.Application\obj\Debug\net6.0\FPTCourseManagement.Application.pdb
+D:\FPTCourseManagement2\FPTCourseManagement.Application\obj\Debug\net6.0\ref\FPTCourseManagement.Application.dll
