@@ -2,14 +2,15 @@
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using FPT_course_management.Common.Controllers;
 using FPTCourseManagement.Application.Module.Courses.Commands;
 using Microsoft.AspNetCore.Authorization;
+using FPTCourseManagement.Domain.Repository;
+using Capstone.Api.Common.ResponseApi.Controllers;
 namespace FPT_course_management.Module.Courses.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/course")]
     [ApiController]
-    public class CourseController : ControllerBase
+    public class CourseController : BaseController
     {
         private readonly IMediator _mediator;
 
@@ -25,19 +26,19 @@ namespace FPT_course_management.Module.Courses.Controllers
             var result = await _mediator.Send(course);
 
             if(!result.IsSuccess) 
-                return Ok(new ResponseAPI() { StatusCode = 400, Message = result.Message, Data = null } );
-            return Ok(new ResponseAPI() { StatusCode = 200, Message = result.Message, Data = result.Data });
+                return ResponseOk(result.Message);
+            return ResponseOk(result.Data);
         }
 
-        [HttpPost("AddStudentIntoCourse")]
+        [HttpPost("add-student-into-course")]
         [Authorize(Roles = "Teacher")]
         public async Task<IActionResult> AddStudentIntoCourse([FromBody] AddStudentIntoCourseHandle list)
         {
             var result = await _mediator.Send(list);
 
             if (!result.IsSuccess)
-                return Ok(new ResponseAPI() { StatusCode = 400, Message = result.Message, Data = null });
-            return Ok(new ResponseAPI() { StatusCode = 200, Message = result.Message, Data = result.Data });
+                return ResponseBadRequest(result.Message);
+            return ResponseOk(result.Data);
         }
     }
 }

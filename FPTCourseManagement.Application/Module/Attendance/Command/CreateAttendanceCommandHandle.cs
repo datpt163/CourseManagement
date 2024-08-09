@@ -26,9 +26,10 @@ namespace FPTCourseManagement.Application.Module.Attendance.Command
                 return new Result(false, "schedule not found", new object());
             if (student == null)
                 return new Result(false, "student not found", new object());
-            _unitOfWork.Attendances.Add(new FPTCourseManagement.Domain.Entities.Schedules.Attendance() {  Id = Guid.NewGuid(), ScheduleId = request.ScheduleId, StudentId = request.StudentId });
+            var attendance = new FPTCourseManagement.Domain.Entities.Schedules.Attendance() { Id = Guid.NewGuid(), ScheduleId = request.ScheduleId, StudentId = request.StudentId };
+            _unitOfWork.Attendances.Add(attendance);
             _unitOfWork.SaveChanges();
-            return new Result(true, "Add success", new object());
+            return new Result(true, "Add success", attendance);
         }
     }
 }

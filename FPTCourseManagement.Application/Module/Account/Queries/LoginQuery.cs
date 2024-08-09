@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace FPTCourseManagement.Application.Module.Account.Queries
 {
-    public class LoginQuery : IRequest<Result>
-    {
-        public string? email { get; set; }
-        public string? password { get; set; }
-    }
+        public class LoginQuery : IRequest<Result>
+        {
+            public string? email { get; set; }
+            public string? password { get; set; }
+        }
 }

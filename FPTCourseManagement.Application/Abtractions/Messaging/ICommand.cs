@@ -7,15 +7,6 @@ using System.Threading.Tasks;
 
 namespace FPTCourseManagement.Application.Abtractions.Messaging
 {
-    //public interface ICommand : IRequest<Result>
-    //{
-
-    //}
-
-    //public interface ICommand<TResponse> : IRequest<Result<TResponse>>
-    //{
-
-    //}
 
     public class Result
     {
@@ -29,7 +20,7 @@ namespace FPTCourseManagement.Application.Abtractions.Messaging
             IsSuccess = isSucees;
             Message = message;
             Data = data;
-        }
+        }   
     }
 
     public class Result<T>
@@ -46,6 +37,4 @@ namespace FPTCourseManagement.Application.Abtractions.Messaging
 
         public T? Data { get; set; }
     }
-
-
 }

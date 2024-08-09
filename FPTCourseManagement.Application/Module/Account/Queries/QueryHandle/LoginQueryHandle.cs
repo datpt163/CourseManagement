@@ -1,5 +1,5 @@
 ﻿using FPTCourseManagement.Application.Abtractions.Messaging;
-using FPTCourseManagement.Application.Common.Service;
+using FPTCourseManagement.Application.Common.Jwt;
 using FPTCourseManagement.Application.Module.Account.Queries;
 using FPTCourseManagement.Domain.Entities.Users;
 using FPTCourseManagement.Domain.Repository;
@@ -29,21 +29,19 @@ namespace FPTCourseManagement.Application.Module.Account.Queries.QueryHandle
         }
         public async Task<Result> Handle(LoginQuery request, CancellationToken cancellationToken)
         {
-            string accesstoken = "";
             if (request.email is null)
                 return new Result(false, "email null", new object());
 
             if (request.password is null)
                 return new Result(false, "password null", new object());
 
-            var ac = _unitofwork.Users.FindByCondition(s => s.Email.Equals(request.email) && s.Password.Equals(request.password)).Include(s => s.Role).FirstOrDefault();
+            var ac = await _unitofwork.Users.FindByCondition(s => s.Email.Equals(request.email) && s.Password.Equals(request.password)).Include(s => s.Role).FirstOrDefaultAsync();
             if (ac is null)
             {
                 return new Result(false, "account is not found", new object());
             }
-            return new Result(true, "login succes", (await _jwtService.generatejwttokentw(ac)));
-        }
-
+            return new Result(true, "login succes", _jwtService.GenerateJwtToken(ac));
+        }   
     }
 }
 

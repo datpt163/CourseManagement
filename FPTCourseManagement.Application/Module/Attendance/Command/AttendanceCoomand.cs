@@ -12,8 +12,6 @@ namespace FPTCourseManagement.Application.Module.Attendance.Command
     public class AttendanceCoomand : IRequest<Result>
     {
         public List<SubCommandModel>? list { get; set; }
-
-
     }
 
     public class SubCommandModel

@@ -1,4 +1,4 @@
-﻿using FPT_course_management.Common.Controllers;
+﻿using Capstone.Api.Common.ResponseApi.Controllers;
 using FPTCourseManagement.Application.Module.Account.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -7,9 +7,9 @@ using System.Collections.Generic;
 
 namespace FPT_course_management.Module.Accounts.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/account")]
     [ApiController]
-    public class AccountController : ControllerBase
+    public class AccountController : BaseController
     {
 
         private readonly IMediator _mediator;
@@ -20,14 +20,14 @@ namespace FPT_course_management.Module.Accounts.Controllers
         }
 
 
-        [HttpPost("Authenticate")]
+        [HttpPost("auth")]
         public async Task<IActionResult> Login(LoginQuery loginQuery)
         {
             var result = await _mediator.Send(loginQuery);
 
             if (!result.IsSuccess)
-                return Ok(new ResponseAPI() { StatusCode = 400, Message = result.Message, Data = null });
-            return Ok(new ResponseAPI() { StatusCode = 200, Message = result.Message, Data = result.Data });
+                return ResponseBadRequest(result.Message);
+            return ResponseOk(result.Data);
         }
     }
 }

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace FPTCourseManagement.Domain.Entities.Subjects
@@ -13,6 +14,7 @@ namespace FPTCourseManagement.Domain.Entities.Subjects
         public Guid Id { get; private set; }
         public string? Name { get; private set; }
         public int NumberOfSlot { get; private set; }
+        [JsonIgnore]
         public IReadOnlyCollection<Course> Courses => courses;
 
     }

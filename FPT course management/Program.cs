@@ -17,10 +17,8 @@ using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using FPTCourseManagement.Application.Common.Service;
 using FPT_course_management.Module.Schedule.Controllers;
-
-
+using FPTCourseManagement.Api.Common.ConfigureService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -46,40 +44,14 @@ builder.Services.AddTransient<IRepository<User>, Repository<User>>();
 builder.Services.AddTransient<AppDbContext, AppDbContext>();
 #endregion
 
-#region register jwt author service
-var jwtSettings = builder.Configuration.GetSection("JwtSettings");
-string secretKey = jwtSettings["SecretKey"];
-string issuer = jwtSettings["Issuer"];
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-})
-.AddJwtBearer(options =>
-{
-    options.SaveToken = true;
-    options.RequireHttpsMetadata = false;
-    options.TokenValidationParameters = new TokenValidationParameters()
-    {
-        ValidateIssuer = true,
-        ValidateAudience = true,
-        ValidIssuer = issuer,
-        ValidAudience = issuer,
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey))
-    };
-});
-builder.Services.AddTransient<IJwtService, JwtService>();
-#endregion
-
+builder.Services.AddAuthSerivce(builder.Configuration);
+builder.Services.AddSwaggerService();
 builder.Services.AddApplication();
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(FPTCourseManagement.Application.AssemblyReference.Assembly));
 
-builder.Services.AddTransient<JWTService, JWTService>();
-
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

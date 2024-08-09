@@ -5,13 +5,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace FPTCourseManagement.Domain.Entities.Courses
 {
     public class Course
     {
+        [JsonIgnore]
         private readonly List<CourseStudent> courseStudents = new List<CourseStudent>();
+        [JsonIgnore]
         private readonly List<Schedule> schedules = new List<Schedule>();
 
         public Course(Guid id, string code, DateTime startDate, Guid typeslotId, Guid subjectId) {
@@ -30,9 +33,13 @@ namespace FPTCourseManagement.Domain.Entities.Courses
         public DateTime StartDate { get; private set; }
         public Guid TypeSlotId { get; private set; }
         public Guid SubjectId { get; private set; }
+        [JsonIgnore]
         public virtual Subject? Subject { get; private set; }
+        [JsonIgnore]
         public virtual TypeSlot? TypeSlot { get; private set; }
+        [JsonIgnore]
         public IReadOnlyCollection<CourseStudent> CourseStudents => courseStudents;
+        [JsonIgnore]
         public IReadOnlyCollection<Schedule> Schedules => schedules;
 
         public static Course Create(Guid id, string courseCode, DateTime start, Guid typeSlotId, Guid subjectId  )

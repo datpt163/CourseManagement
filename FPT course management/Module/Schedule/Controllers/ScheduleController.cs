@@ -1,5 +1,4 @@
-﻿using FPT_course_management.Common.Controllers;
-using FPTCourseManagement.Domain.Entities.Users;
+﻿using FPTCourseManagement.Domain.Entities.Users;
 using FPTCourseManagement.Domain.Repository;
 using FPTCourseManagement.Infrastructure.Repository;
 using Microsoft.AspNetCore.Authorization;
@@ -14,7 +13,7 @@ using System.Text;
 
 namespace FPT_course_management.Module.Schedule.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/schedule")]
     [ApiController]
     public class ScheduleController : ControllerBase
     {
@@ -44,33 +43,31 @@ namespace FPT_course_management.Module.Schedule.Controllers
             return Ok(list);
         }
 
-        [HttpGet("ByToken")]
-        [EnableQuery]
-        [Authorize(Roles = "Teacher")]
-        public IActionResult Getlist2()
-        {
-            var token = HttpContext.Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last();
-            if (token == null)
-            {
-                return BadRequest();
-            }
-            var us = _jwtService.VerifyToken(token);
-            var x = _unitOfWork.Schedules.FindByCondition(x => x.TeacherId == us.Id).Include(c => c.Course).GroupBy(x => x.CourseId)
-            .Select(g => g.First())
-             .ToList();
+        //[HttpGet("ByToken")]
+        //[EnableQuery]
+        //[Authorize(Roles = "Teacher")]
+        //public IActionResult Getlist2()
+        //{
+        //    var token = HttpContext.Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last();
+        //    if (token == null)
+        //    {
+        //        return BadRequest();
+        //    }
+        //    var us = _jwtService.VerifyToken(token);
+        //    var x = _unitOfWork.Schedules.FindByCondition(x => x.TeacherId == us.Id).Include(c => c.Course).GroupBy(x => x.CourseId)
+        //    .Select(g => g.First())
+        //     .ToList();
 
-            if (x is null || x.Count() == 0)
-                return Ok("Schedule is empty");
+        //    if (x is null || x.Count() == 0)
+        //        return Ok("Schedule is empty");
 
-            List<ResponGetList2> list = new List<ResponGetList2>();
-            foreach (var n in x)
-            {
-                list.Add(new ResponGetList2() { Id = n.CourseId, CourseCode = n.Course.CourseCode});
-            }
-            return Ok( new ResponseAPI() { StatusCode = 200, Message = "", Data = list } );
-        }
-
-
+        //    List<ResponGetList2> list = new List<ResponGetList2>();
+        //    foreach (var n in x)
+        //    {
+        //        list.Add(new ResponGetList2() { Id = n.CourseId, CourseCode = n.Course.CourseCode});
+        //    }
+        //    return Ok( new ResponseAPI() { StatusCode = 200, Message = "", Data = list } );
+        //}
     }
 
     public class ResponGetList
